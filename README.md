@@ -1,15 +1,10 @@
 # ⚡ ESP32 Power Monitoring with Web Interface
 
-<div align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/Language-English-blue?logo=google-chrome&logoColor=white" alt="English"></a>
-  <span style="margin: 0 10px;">│</span>
-  <a href="README_RU.md"><img src="https://img.shields.io/badge/Language-Русский-red?logo=google-chrome&logoColor=white" alt="Русский"></a>
-</div>
 [![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32-00979D?logo=espressif&logoColor=white)](https://www.espressif.com/)
 [![Framework: Arduino](https://img.shields.io/badge/Framework-Arduino-00979D?logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Language: English](https://img.shields.io/badge/Language-English-blue.svg)](README.md)
-[![Language: Русский](https://img.shields.io/badge/Language-Русский-red.svg)](docs/README_RU.md)
+[![Language: Русский](https://img.shields.io/badge/Language-Русский-red.svg)](README_RU.md)
 
 > 💬 **Выберите язык / Choose your language**:  
 > Переключитесь на русскую версию — [Русский](README_RU.md) | Switch to English — [English](README.md)

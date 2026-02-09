@@ -7,7 +7,7 @@
 [![Language: Русский](https://img.shields.io/badge/Language-Русский-red.svg)](README_RU.md)
 
 > 💬 **Выберите язык / Choose your language**:  
-> Переключитесь на русскую версию — [Русский](README_RU.md) | Switch to English — [English](README.md)
+> Переключитесь на русскую версию — [Русский](README_RU.md) 
 
 ---
 

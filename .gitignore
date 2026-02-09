@@ -1,0 +1,56 @@
+# Arduino / PlatformIO компиляция
+.build/
+.pio/
+.platformio/
+*.elf
+*.bin
+*.hex
+*.eep
+*.map
+*.d
+*.o
+*.a
+*.lto
+
+# PlatformIO-specific
+.piolibdeps/
+lib/
+libdeps/
+
+# ESP-IDF (если используете)
+build/
+components/
+idf_component.yml
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Логи и данные
+logs/
+data/
+*.csv
+*.json
+
+# Файлы резервного копирования
+*~
+*.backup
+*.bak
+
+# Скомпилированные библиотеки
+lib/
+*.so
+*.dylib
+*.dll
+
+# Скрытые файлы редакторов
+.*.swp

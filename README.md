@@ -1,10 +1,15 @@
 # ⚡ ESP32 Power Monitoring with Web Interface
 
-[![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32-00979D?logo=espressif&logoColor=white)](https://www.espressif.com/)
-[![Framework: Arduino](https://img.shields.io/badge/Framework-Arduino-00979D?logo=arduino&logoColor=white)](https://www.arduino.cc/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Language: English](https://img.shields.io/badge/Language-English-blue.svg)](README.md)
-[![Language: Русский](https://img.shields.io/badge/Language-Русский-red.svg)](docs/README_RU.md)
+<div align="center">
+  <a href="README.md"><img src="https://img.shields.io/badge/Language-English-blue?logo=google-chrome&logoColor=white" alt="English"></a>
+  <span style="margin: 0 10px;">│</span>
+  <a href="README_RU.md"><img src="https://img.shields.io/badge/Language-Русский-red?logo=google-chrome&logoColor=white" alt="Русский"></a>
+</div>
+
+> 💬 **Выберите язык / Choose your language**:  
+> Переключитесь на русскую версию — [Русский](README_RU.md) | Switch to English — [English](README.md)
+
+---
 
 **A professional energy consumption monitoring system** that transforms your ESP32 into an autonomous power monitor with a beautiful web interface. Track the power usage of any household appliance in real time with industrial precision — no subscriptions, clouds, or extra apps required.
 
@@ -207,7 +212,7 @@ Use with **Home Assistant** via `REST Sensor` or in **Node-RED** via `http reque
 ## 🌍 Choose Your Language
 
 - **[English Documentation](README.md)** — ✅ You're here — complete, detailed, with examples
-- **[Russian Documentation](docs/README_RU.md)** — Full version in Russian 
+- **[Russian Documentation](README_RU.md)** — Full version in Russian 
 
 > ✅ **Both versions contain identical content** — just in different languages. Pick your preference.
 
@@ -278,4 +283,4 @@ A: No. ESP32 only supports **2.4 GHz** networks. Ensure your router broadcasts o
 | [🐛 Report a Bug](issues) | Report issues or request fixes |
 | [💬 Discussions](discussions) | Get help, share ideas, case studies |
 | [⭐ Star on GitHub](https://github.com/your-username/esp32-power-monitor/stargazers) | Support the project! |
-| [🔧 Enflish Firmware](firmware/english_version/ESP32_Monitoring_system_en.ino) | Firmware with Russian comments |
+| [🔧 English Firmware](firmware/english_version/ESP32_Monitoring_system_en.ino) | Firmware with English comments |

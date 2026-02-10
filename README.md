@@ -22,7 +22,6 @@
 
 ### 🔌 Hardware Connection
 <img src="images/Scheme.png" alt="Подключение SCT-013-000 к ESP32" width="35%">
----
 
 ## 🚀 Why This Project?
 

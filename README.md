@@ -21,9 +21,7 @@
 *Data updates every 2 seconds: power, device state, consumption history, efficiency, and peak loads.*
 
 ### 🔌 Hardware Connection
-![SCT-013-000 connected to ESP32](images/hardware-setup.jpg)  
-*Clean and safe assembly: SCT-013-000 current sensor and ESP32 Dev Board on a breadboard.*
-
+<img src="images/Scheme.png" alt="Подключение SCT-013-000 к ESP32" width="35%">
 ---
 
 ## 🚀 Why This Project?
@@ -60,7 +58,7 @@ Current Sensor → ESP32 (ADC + Logic) → Your Browser
 ```
 
 1. **Signal Acquisition**: The SCT-013-000 current sensor is clamped around the live wire, converting current into a proportional voltage.
-2. **Analog Conditioning**: A voltage divider (10kΩ + 1kΩ) scales the signal down to a safe 0–3.3 V range for the ESP32’s ADC.
+2. **Analog Conditioning**: A voltage divider (10kΩ + 33Ω) scales the signal down to a safe 0–3.3 V range for the ESP32’s ADC.
 3. **Digital Processing**: The ESP32 samples the voltage 1000 times per second, computes True RMS, and multiplies by mains voltage (220 V) to get real power in watts.
 4. **State Recognition**: Algorithm classifies device behavior into 5 modes: Off, Idle, Normal Operation, Intensive Operation, High Load.
 5. **Data Delivery**: Built-in web server serves HTML interface and JSON data via API.
@@ -76,25 +74,11 @@ Current Sensor → ESP32 (ADC + Logic) → Your Browser
 |----------|------|-------|
 | ESP32 DevKit (or equivalent) | 8$ | Any version: ESP32-WROOM, ESP32-S3 |
 | SCT-013-000 Current Sensor (100A) | 4$ | Do NOT confuse with 5A version! |
-| Resistors: 10kΩ and 1kΩ | 0.2$ | For voltage divider |
+| Resistors: 10kΩ and 33Ω | 0.2$ | For voltage divider |
 | Breadboard and jumper wires | 1.5$| Can use pre-made cables |
 | USB cable | — | Already have one? |
 
 > 💡 **Important**: Working with 220 V AC is **dangerous**! If unsure, ask a qualified electrician. The sensor **does not touch wires** — it merely clamps around the live conductor.
-
-### Wiring Diagram
-
-Connect the sensor as follows:
-
-```
-SCT-013-000 (output) ────┬─────── 10kΩ ──── 3.3V (ESP32)
-                        │
-                       ──── 1kΩ ──── GND (ESP32)
-                        │
-                        └─────── GPIO34 (ESP32 ADC input)
-```
-
-> ✅ **Check**: With no load, the output should read ~1.65 V (half of 3.3 V). This is normal — it’s the DC bias point.
 
 ### Flashing the Firmware
 
@@ -223,7 +207,6 @@ You can make this project better!
 
 | How to Help | What to Do |
 |-------------|------------|
-| **🐞 Report a Bug** | [Create an Issue](issues) — describe what’s wrong |
 | **💡 Suggest an Improvement** | Discuss ideas in [Discussions](discussions) |
 | **📖 Improve Documentation** | Translate, simplify, add diagrams |
 | **📸 Share Your Build** | Upload photos/videos — we’ll feature them in the gallery |

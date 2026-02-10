@@ -206,7 +206,7 @@ You can make this project better!
 
 | How to Help | What to Do |
 |-------------|------------|
-| **💡 Suggest an Improvement** | Discuss ideas in [Discussions](discussions) |
+| **💡 Suggest an Improvement** | Discuss ideas in [Discussions]((https://github.com/Maxim-szh/ESP32-Power-Monitor-WebServer/discussions/4)) |
 | **📖 Improve Documentation** | Translate, simplify, add diagrams |
 | **📸 Share Your Build** | Upload photos/videos — we’ll feature them in the gallery |
 | **⭐ Star on GitHub** | Helps the project grow! |

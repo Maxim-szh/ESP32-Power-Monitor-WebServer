@@ -280,6 +280,6 @@ A: No. ESP32 only supports **2.4 GHz** networks. Ensure your router broadcasts o
 | Link | Description |
 |------|-------------|
 | [🐛 Report a Bug](issues) | Report issues or request fixes |
-| [💬 Discussions](discussions) | Get help, share ideas, case studies |
+| [💬 Discussions](https://github.com/Maxim-szh/ESP32-Power-Monitor-WebServer/discussions/4) | Get help, share ideas, case studies |
 | [⭐ Star on GitHub](https://github.com/your-username/esp32-power-monitor/stargazers) | Support the project! |
 | [🔧 English Firmware](firmware/english_version/ESP32_Monitoring_system_en.ino) | Firmware with English comments |

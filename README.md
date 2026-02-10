@@ -17,7 +17,7 @@
 ## 🎥 Live Demo
 
 ### 🖥️ Real-Time Web Interface
-<img src="images/monitoring_system.png" alt="ESP32 Power Monitor Web Interface Demo" width="35%">
+<img src="images/monitoring_system.png" alt="ESP32 Power Monitor Web Interface Demo" width="60%">
 *Data updates every 2 seconds: power, device state, consumption history, efficiency, and peak loads.*
 
 ### 🔌 Hardware Connection

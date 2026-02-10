@@ -4,7 +4,7 @@
 [![Framework: Arduino](https://img.shields.io/badge/Framework-Arduino-00979D?logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Language: English](https://img.shields.io/badge/Language-English-blue.svg)](README.md)
-[![Language: Русский](https://img.shields.io/badge/Language-Русский-red.svg)](docs/README_RU.md)
+[![Language: Русский](https://img.shields.io/badge/Language-Русский-red.svg)](README_RU.md)
 
 **Профессиональная система мониторинга энергопотребления**, превращающая ваш ESP32 в автономный энергомонитор с красивым веб-интерфейсом. Отслеживайте потребление любой бытовой техники в реальном времени с промышленной точностью — без подписок, облаков и лишних приложений.
 

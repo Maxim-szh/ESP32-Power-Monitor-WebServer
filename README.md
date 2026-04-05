@@ -13,7 +13,7 @@
 **A professional energy consumption monitoring system** that transforms your ESP32 into an autonomous power monitor with a beautiful web interface. Track the power usage of any household appliance in real time with industrial precision — no subscriptions, clouds, or extra apps required.
 
 ---
-
+ 
 ## 🎥 Live Demo
 
 ### 🖥️ Real-Time Web Interface
